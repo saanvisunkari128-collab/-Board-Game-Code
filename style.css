@@ -1,1 +1,30 @@
+body {
+  font-family: roboto, sans-serif;
+  text-align : center;
+  background: #489CFF0;
+  margin: 0;
+  padding: 0;
+}
 
+#game-board {
+  display: grid;
+  grid-template-columns: repeat(4, 100px); /* 4 cards per row */
+  grid-gap: 10px; /* Space between cards */
+  justify-content: center;
+  margin: 20px auto;
+  max-width: 450px;
+  display: none; /* Hide board until game starts */
+}
+
+.card {
+  width: 100px;
+  height: 100px;
+  background: #CA9BF7;
+  color: purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
