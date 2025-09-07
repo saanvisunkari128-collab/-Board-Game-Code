@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset = "UTF-8">
-  <title> Flashcard Matching Game </title>
+  <meta charset="UTF-8">
+  <title>Flashcard Memory Game</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
- <h1>Flashcard Memory Game</h1>
+  <h1>Flashcard Memory Game</h1>
+
+  <!-- Topic selector -->
+  <label for="topic-select">Choose a topic:</label>
+  <select id="topic-select">
+    <option value="math">Math</option>
+    <option value="science">Science</option>
+    <option value="vocab">Spanish</option>
+  </select>
 
   <!-- Start button -->
   <button id="start-btn">Start Game</button>
 
-  <!-- Empty space where cards will go -->
+  <!-- Game board -->
   <div id="game-board"></div>
 
-<script src = "script.js"></script>
-
-
+  <script src="script.js"></script>
 </body>
 </html>
-
-
-
-</body>
 
